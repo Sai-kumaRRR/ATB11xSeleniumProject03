@@ -1,4 +1,21 @@
 package com.thetestingacademy.ex02_Selenium_Basics;
 
-public class TestSelenium12_Change_driver {
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class TestSelenium12_Change_Driver {
+
+    public static void main(String[] args) {
+
+
+        // ChromeDriver driver = new ChromeDriver();
+        //  driver = new FirefoxDriver();
+
+        WebDriver driver1 = new ChromeDriver();
+        driver1  =  new FirefoxDriver();
+    }
 }
+
+
