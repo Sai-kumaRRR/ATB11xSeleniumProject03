@@ -1,4 +1,4 @@
-package com.thetestingacademy.ex09_Selenium_MiniProject02;
+package com.thetestingacademy.ex09_Selenium_MiniProject03;
 
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
