@@ -1,4 +1,4 @@
-package com.thetestingacademy.ex13_MiniProject06;
+package com.thetestingacademy.ex13_MiniProject06MakeMyTrip;
 
 import com.thetestingacademy.CommonToAll;
 import io.qameta.allure.Description;
