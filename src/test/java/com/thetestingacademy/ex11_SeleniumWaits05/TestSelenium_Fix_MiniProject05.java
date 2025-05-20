@@ -1,5 +1,4 @@
-package com.thetestingacademy.ex11_SeleniumWaits04;
-
+package com.thetestingacademy.ex11_SeleniumWaits05;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
@@ -14,7 +13,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-class TestSelenium23_Fix_Miniproject {
+public class TestSelenium_Fix_MiniProject05 {
 
 
     // Locators - Find the Web elements
@@ -32,7 +31,6 @@ class TestSelenium23_Fix_Miniproject {
         edgeOptions.addArguments("--start-maximized");
 
         WebDriver driver = new EdgeDriver(edgeOptions);
-
 
 
         driver.navigate().to("https://app.vwo.com");
@@ -64,12 +62,6 @@ class TestSelenium23_Fix_Miniproject {
         WebElement error_message = driver.findElement(By.className("notification-box-description"));
         Assert.assertEquals(error_message.getText(), "Your email, password, IP address or location did not match");
         driver.quit();
-
-
-
-
-
-
 
 
     }

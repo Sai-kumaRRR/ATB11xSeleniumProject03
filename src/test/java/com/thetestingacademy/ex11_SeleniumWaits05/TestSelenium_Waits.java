@@ -1,4 +1,4 @@
-package com.thetestingacademy.ex11_SeleniumWaits04;
+package com.thetestingacademy.ex11_SeleniumWaits05;
 
 
 import io.qameta.allure.Description;
@@ -16,9 +16,6 @@ public class TestSelenium_Waits {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
         driver.get("https://app.vwo.com");
-
-
-
 
 
     }

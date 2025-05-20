@@ -1,4 +1,4 @@
-package com.thetestingacademy.ex12_CommonToAll05;
+package com.thetestingacademy.ex13_MiniProject06;
 
 import com.thetestingacademy.CommonToAll;
 import io.qameta.allure.Description;
@@ -7,13 +7,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
-
-public class TestSelenium24_MiniProject4 extends CommonToAll {
+public class TestSelenium24_MiniProject06 extends CommonToAll {
 
 
     @Description("Verify  makemytrip opens with modal")
@@ -29,14 +25,11 @@ public class TestSelenium24_MiniProject4 extends CommonToAll {
         System.out.println(driver.getTitle());
 
 
-        waitForVisibility(driver,3,"//span[@data-cy='closeModal']");
+        waitForVisibility(driver, 3, "//span[@data-cy='closeModal']");
 
         WebElement closeModel = driver.findElement(By.xpath("//span[@data-cy=\"closeModal\"]"));
         closeModel.click();
 
 
-    }
-
-    private void waitForVisibility(WebDriver driver, int i, String s) {
     }
 }
