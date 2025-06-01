@@ -14,15 +14,15 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-
-
   <dependencies>
+
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
       <version>4.32.0</version>
     </dependency>
+
 
     <!-- https://mvnrepository.com/artifact/org.testng/testng -->
     <dependency>
@@ -31,6 +31,7 @@
       <version>7.11.0</version>
       <scope>test</scope>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
     <dependency>
       <groupId>io.qameta.allure</groupId>
@@ -39,12 +40,37 @@
     </dependency>
 
 
+    <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
     <dependency>
       <groupId>org.assertj</groupId>
       <artifactId>assertj-core</artifactId>
-      <version>3.25.1</version>
+      <version>3.26.3</version>
       <scope>test</scope>
     </dependency>
+
+
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>5.2.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>5.2.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml-schemas</artifactId>
+      <version>4.1.2</version>
+    </dependency>
+
+
+
+
+
 
   </dependencies>
 </project>

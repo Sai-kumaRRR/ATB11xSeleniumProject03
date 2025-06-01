@@ -1,6 +1,5 @@
 package com.thetestingacademy.ex21_Windows;
 
-
 import com.thetestingacademy.CommonToAll;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -49,9 +48,13 @@ public class TestProjectInterview extends CommonToAll {
                 click_map_button.click();
 
 
+
             }
 
         }
+
+
+
 
 
     }
