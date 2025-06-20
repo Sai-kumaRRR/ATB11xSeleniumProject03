@@ -9,7 +9,7 @@ public class TestSelenium06_SystemGetPro_Selenium03 {
 
 
         // Firefox
-        System.setProperty("webdriver.gecko.driver", "path/to/geckodriver.exe");
+        System.setProperty("webDriver.gecko.driver", "path/to/geckodriver.exe");
         // Chrome
         System.setProperty("webDriver.chrome.driver", "path/to/chromedriver.exe");
         // IE

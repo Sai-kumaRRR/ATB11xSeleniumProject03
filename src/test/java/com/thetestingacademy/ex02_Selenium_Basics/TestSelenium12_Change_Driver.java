@@ -11,7 +11,7 @@ public class TestSelenium12_Change_Driver {
 
 
         // ChromeDriver driver = new ChromeDriver();
-        //  driver = new FirefoxDriver();
+         // driver = new FirefoxDriver();
 
         WebDriver driver1 = new ChromeDriver();
         driver1  =  new FirefoxDriver();

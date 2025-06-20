@@ -1,4 +1,4 @@
-package com.thetestingacademy.ex07_Selenium_Locators;
+package com.thetestingacademy.Project01ex07_Selenium_Locators;
 
 
 import io.qameta.allure.Description;
@@ -13,7 +13,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestSeleniumProject_Locators_Selenium_ID_CLASSNAME_NAME {
+public class TestSeleniumLocators_Selenium_ID_CLASSNAME_NAME {
 
     @Description("TC#1 - Verify that with invalid login, error message is displayed!")
     @Owner("Sai Kumar")

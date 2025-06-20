@@ -29,12 +29,12 @@ public class TestSelenium_a_Tag_nameLocators {
         //</a>
 
 //         Link Text - Full Text Match
-        //     WebElement a_tag_free_trail_full_match = driver.findElement(By.linkText("Start a free trial"));
+        //     WebElement a_tag_free_trial_full_match = driver.findElement(By.linkText("Start a free trial"));
 //         If the element locator is invalid - no such element: Unable to locate element: {"method":"link text","selector":"Start a free tria"}
         //      a_tag_free_trail_full_match.click();
 
-//        WebElement a_tag_free_trail_full_match = driver.findElement(By.linkText("Start a free trial"));
-//        a_tag_free_trail_full_match.click();
+//        WebElement a_tag_free_trial_full_match = driver.findElement(By.linkText("Start a free trial"));
+//        a_tag_free_trial_full_match.click();
 
 
         WebElement a_tag_partial_match = driver.findElement(By.partialLinkText("trial"));
